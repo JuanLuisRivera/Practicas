@@ -33,6 +33,16 @@ public class Parametros{
     System.out.println(a.cantidad + "\n");
 
 
+
+    System.out.println("\nEjemplo para paso con referencia en main.\n");
+    //Se incializa la variable j igual a 20
+    int j = 20;
+    //Se imprime el valor de j igual a 20
+    System.out.println("Valor de j: \n" + j);
+    //Se referencia el metodopruebareferencia de a y se aplica en j
+    j = a.metodopruebareferencia(j);
+    //Se imprime el valor de j igual a 2
+    System.out.println("Valor de j: \n" + j);
   }
 
 

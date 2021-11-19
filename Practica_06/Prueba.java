@@ -21,4 +21,12 @@ public class Prueba {
       a.cantidad = 2;
     }
 
+    /**Metodo que para evaluar la prueba por referencia para cambiar un valor en main
+    *@param   a                Tipo de dato entero
+    */
+    public int metodopruebareferencia(int a){
+      //Modifica el valor de a y lo iguala a 2
+      a = 2;
+      return a;
+    }
 }
